@@ -11,10 +11,7 @@
 
 # COMMAND ----------
 
-!pip install \
-  colorama==0.4.6 \
-  catboost==1.2.0 \
-  gecs==0.1.1
+!pip install colorama==0.4.6 catboost==1.2.0 gecs==0.1.1
 
 # COMMAND ----------
 
