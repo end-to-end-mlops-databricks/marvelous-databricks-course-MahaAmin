@@ -16,6 +16,8 @@ Marvelous MLOps End-to-end MLOps with Databricks course
 - Create "DataProcessor" and "FraudModel" classes
 - Push data.csv to databricks volume
 - Push package.whl to databricks volume
+- Create main.py to preprocess data, train model, and evaluate model
+- Fix pre-commit checks
 
 
 ## Set up your environment
