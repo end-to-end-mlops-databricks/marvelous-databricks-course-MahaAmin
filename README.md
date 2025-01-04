@@ -46,3 +46,11 @@ uv pip install dist/fraud_credit_cards-0.0.1-py3-none-any.whl
 ```
 uv run python main.py
 ```
+
+### Pre-Commit Checks
+
+To run pre-commit checks
+
+```
+uv run pre-commit run --all-files
+```

@@ -19,6 +19,7 @@ dependencies = [
     "catboost==1.2.0",
     "gecs==0.1.1",
     "databricks>=0.2",
+    "pre-commit>=4.0.1",
 ]
 
 [project.optional-dependencies]
