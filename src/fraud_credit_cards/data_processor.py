@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
 
 class DataProcessor:
     def __init__(self, file_path, config):
@@ -34,3 +35,8 @@ class DataProcessor:
         preprocessor = ColumnTransformer(
             transformers=[
                 ('num', numeric_transformer, numeric_features)])
+        
+    # split dataset
+    def split_data(self, test_size=0.2, random_state=42):
+        # Split the data into training and test sets
+        return train_test_split(self.X, self.y, test_size=test_size, random_state=random_state)

@@ -34,4 +34,4 @@ class FraudModel:
         # Calcualte F1 score
         f1 = f1_score(y_test, y_pred)
 
-        return accuracy, precision, recall, mse, f1
+        return y_pred, accuracy, precision, recall, mse, f1

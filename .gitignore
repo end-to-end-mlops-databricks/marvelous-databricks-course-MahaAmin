@@ -10,7 +10,7 @@ __pycache__/
 *.so
 
 # Folders
-data/
+catboost_info/
 
 # Distribution / packaging
 .Python
