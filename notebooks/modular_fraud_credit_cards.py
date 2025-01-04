@@ -50,7 +50,7 @@ warnings.filterwarnings("ignore")
 # COMMAND ----------
 
 
-def load_data(path):
+def load_data(filepath):
     """
     Load the data from the given filepath.
     """
