@@ -1,6 +1,6 @@
 start:
 	uv venv -p 3.11.11 .venv
-	source .venv/bin/activate
+	. .venv/bin/activate
 	uv pip install -r pyproject.toml --all-extras
 	uv lock
 

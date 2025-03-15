@@ -20,6 +20,11 @@ Marvelous MLOps End-to-end MLOps with Databricks course
 - Fix pre-commit checks
 
 
+#### PR #2
+
+- Push train and test sets to databricks catalog tables using pyspark in data_processor.py
+-
+
 ## Set up your environment
 In this course, we use Databricks 15.4 LTS runtime, which uses Python 3.11.
 In our examples, we use UV. Check out the documentation on how to install it: https://docs.astral.sh/uv/getting-started/installation/
