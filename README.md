@@ -22,8 +22,15 @@ Marvelous MLOps End-to-end MLOps with Databricks course
 
 #### PR #2
 
-- Push train and test sets to databricks catalog tables using pyspark in data_processor.py
--
+- Add **03.preprocess_data" notebook to create and push train_set and test_set to databricks catalog tables using pyspark in data_processor.py class.
+
+<details>
+<summary>Show data sets in Databarick Catalog.</summary>
+
+![db-tables](img/1.png)
+
+</details>
+
 
 ## Set up your environment
 In this course, we use Databricks 15.4 LTS runtime, which uses Python 3.11.
