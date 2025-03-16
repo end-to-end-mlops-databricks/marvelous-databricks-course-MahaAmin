@@ -1,1 +1,4 @@
+catalog_name: fraud_credit_cards
+schema_name: dev
+
 target: Class

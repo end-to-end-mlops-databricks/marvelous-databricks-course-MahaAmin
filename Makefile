@@ -20,4 +20,4 @@ package:
 	uv build
 
 db-push-pkg:
-	databricks fs cp dist/fraud_credit_cards-$(version)-py3-none-any.whl dbfs:/Volumes/fraud_credit_cards/packages/fraud_credit_cards
+	databricks fs cp --overwrite dist/fraud_credit_cards-$(version)-py3-none-any.whl dbfs:/Volumes/fraud_credit_cards/packages/fraud_credit_cards

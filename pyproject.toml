@@ -1,6 +1,6 @@
 [project]
 name = "fraud_credit_cards"
-version = "0.2.1"
+version = "0.2.2"
 description = "Fraud Credit Card"
 readme = "README.md"
 requires-python = ">=3.11, <3.12"
