@@ -100,5 +100,3 @@ for key, value in report.items():
         print(key + ":", value)
 
 # COMMAND ----------
-
-

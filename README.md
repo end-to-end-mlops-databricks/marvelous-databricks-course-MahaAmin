@@ -22,7 +22,7 @@ Marvelous MLOps End-to-end MLOps with Databricks course
 
 #### PR #2
 
-- Add **03.preprocess_data" notebook to create and push train_set and test_set to databricks catalog tables using pyspark in data_processor.py class.
+- Add **03.preprocess_data"** notebook to create and push train_set and test_set to databricks catalog tables using pyspark in data_processor.py class.
 
 <details>
 <summary>Show data sets in Databarick Catalog.</summary>

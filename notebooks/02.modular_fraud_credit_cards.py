@@ -170,4 +170,3 @@ def evaluate_model(model, X_train, X_test, y_train, y_test, y_pred):
 
 
 accuracy, precision, recall, mse, f1 = evaluate_model(model, X_train, X_test, y_train, y_test, y_pred)
-
